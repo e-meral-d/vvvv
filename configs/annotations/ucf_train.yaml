@@ -1,0 +1,11 @@
+videos:
+  - id: ucf_video_example_01
+    path: data/ucf/<relative_path_to_video_01>.mp4
+    label: anomaly
+    segments:
+      - start: 12.5
+        end: 22.0
+  - id: ucf_video_example_02
+    path: data/ucf/<relative_path_to_video_02>.mp4
+    label: normal
+    segments: []

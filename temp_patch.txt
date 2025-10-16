@@ -1,0 +1,21 @@
+*** Begin Patch
+*** Update File: train.py
+@@
+-    *,
+-    log_interval: int = 20,
+-    scaler: torch.cuda.amp.GradScaler | None = None,
++    *,
++    log_interval: int = 20,
++    scaler: torch.cuda.amp.GradScaler | None = None,
++    threshold: float = 0.5,
+ ) -> Dict[str, float]:
+@@
+-    metrics = compute_epoch_metrics(frame_targets, frame_scores, video_targets, video_scores)
++    metrics = compute_epoch_metrics(
++        frame_targets,
++        frame_scores,
++        video_targets,
++        video_scores,
++        threshold=threshold,
++    )
+*** End Patch

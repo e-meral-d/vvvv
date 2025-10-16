@@ -1,0 +1,11 @@
+videos:
+  - id: campus_clip_01
+    path: data/video/<relative_path_to_clip_01>.mp4
+    label: anomaly
+    segments:
+      - start: 3.0
+        end: 7.5
+  - id: campus_clip_02
+    path: data/video/<relative_path_to_clip_02>.mp4
+    label: normal
+    segments: []

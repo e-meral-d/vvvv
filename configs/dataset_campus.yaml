@@ -1,0 +1,9 @@
+data_root: data/video
+annotation: configs/annotations/campus_test.yaml
+batch_size: 4
+num_workers: 4
+clip_length: 16
+target_frame_rate: 8
+stride: 8
+image_size: 336
+shuffle: false
