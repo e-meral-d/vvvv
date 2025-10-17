@@ -29,7 +29,8 @@
 
 数据与注释
 ----------
-- 真实数据尚未接入，`configs/annotations/*.yaml` 中使用 `<relative_path_to_...>` 作为占位符。待数据准备后，请将其替换为相对项目根目录的真实路径，并补充异常时间段（秒）。
+- 提供了脚本 `scripts/build_ucf_annotations.py`，可读取官方分割文件 `data/UCF_Crimes/Anomaly_Detection_splits/Anomaly_{Train,Test}.txt`，自动在 `configs/annotations` 下生成 `ucf_train.yaml` 与 `ucf_test.yaml`。执行示例：`python scripts/build_ucf_annotations.py`。脚本会检查 `data/UCF_Crimes/Videos/` 目录下的视频是否存在，并对缺失文件给出提示。
+- 生成的注释文件使用视频级标签（`normal` 或 `anomaly`），暂未包含异常时间段信息；如有额外标注，可在对应视频条目下补充 `segments: [{start: ..., end: ...}]`。
 - 数据管线实现于 `src/data/`，默认参数：8 fps 抽帧、clip 长度 16 帧、滑窗步长 8 帧、分辨率 336x336，并完成 CLIP 风格的归一化。
 - DataLoader 会输出 `frames (C,T,H,W)`、clip 标签、帧级标签、时间戳等信息，后续训练和评估脚本可直接消费。
 
@@ -59,7 +60,7 @@
 - 模型组件（`src/models/`）
   - `temporal_encoder.py`：多层 TransformerEncoder，带可学习位置编码与 LayerNorm，用于时序建模。
   - `ski_module.py`：内置正常/异常行为语义库，调用 CLIP 文本编码器获得先验嵌入，并以 sigmoid 权重注入时序特征。
-  - `t_anomalyclip.py`：整合冻结的 CLIP ViT-L/14、TemporalEncoder、SKIModule 与 PromptAnomalyHead，输出帧级/视频级 logits 以及中间特征。
+  - `t_anomalyclip.py`：整合冻结的 CLIP ViT-L/14、TemporalEncoder、SKIModule 与 PromptAnomalyHead，输出帧级/视频级 logits 以及中间特征；提示语默认使用抽象描述（“a video of a normal event”“a video of an abnormal event”），以覆盖无人机、动物等非人类主体的异常行为。
 - 公共工具（`src/utils/`）
   - `config.py`、`data.py`：加载 YAML 配置并构建 DataLoader，可覆盖 batch、线程、shuffle 等参数。
   - `metrics.py`：纯 NumPy 实现二分类 AUC、Precision/Recall/F1。
@@ -74,8 +75,9 @@
 
 使用步骤
 --------
-1. 将真实视频文件存放在 `data/ucf/`（训练）与 `data/video/`（测试）目录，并在 `configs/annotations/ucf_train.yaml`、`configs/annotations/campus_test.yaml` 中替换 `<relative_path_to_...>` 占位符，同时填写异常时间段。
-2. 训练：`python train.py --dataset-config configs/dataset_ucf.yaml --val-annotation configs/annotations/campus_test.yaml --val-data-root data/video --output-dir outputs/train_run`。脚本将自动记录指标与 checkpoint。
-3. 评估：`python evaluate.py --dataset-config configs/dataset_campus.yaml --checkpoint outputs/train_run/checkpoint_epoch_XXX.pt --output outputs/eval_metrics.json --save-scores outputs/eval_scores.json`。
-4. 可视化：待在 `visualize.py` 中实现帧分数曲线、热力图导出逻辑后，可使用同一套注释与分数文件生成可视化结果。
-5. 根据需要扩展损失函数、调参脚本以及模型导出/部署流程，完善端到端解决方案。
+1. 将 UCF-Crimes 官方视频解压至 `data/UCF_Crimes/Videos/`，并确保 `Anomaly_Detection_splits` 目录位于 `data/UCF_Crimes/` 下。
+2. 运行 `python scripts/build_ucf_annotations.py` 生成 `configs/annotations/ucf_train.yaml` 与 `configs/annotations/ucf_test.yaml`。如需自定义输出位置或仅生成单侧 split，可查看脚本 `--help`。
+3. 训练：`python train.py --dataset-config configs/dataset_ucf.yaml --val-annotation configs/annotations/ucf_test.yaml --val-data-root data/UCF_Crimes/Videos --output-dir outputs/train_run`。训练过程中默认使用训练 split 打乱采样，可选在测试 split 上进行验证评估（只读）。
+4. 评估：`python evaluate.py --dataset-config configs/dataset_ucf_test.yaml --checkpoint outputs/train_run/checkpoint_epoch_XXX.pt --output outputs/eval_metrics.json --save-scores outputs/eval_scores.json`。
+5. 可视化：待在 `visualize.py` 中实现帧分数曲线、热力图导出逻辑后，可使用同一套注释与分数文件生成可视化结果。
+6. 根据需要扩展损失函数、调参脚本以及模型导出/部署流程，完善端到端解决方案。

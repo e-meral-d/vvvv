@@ -84,13 +84,35 @@ class TAnomalyCLIP(nn.Module):
             for param in self.clip_model.parameters():
                 param.requires_grad = False
 
-        self.visual_dim = getattr(self.clip_model.visual, "output_dim")
-        text_projection = getattr(self.clip_model, "text_projection")
-        if text_projection is None:
-            raise RuntimeError("CLIP 模型缺少 text_projection，无法对齐多模态空间。")
-        self.text_dim = text_projection.shape[1]
+        self.visual_dim = getattr(self.clip_model.visual, "output_dim", None)
+        if self.visual_dim is None:
+            image_size = getattr(self.clip_model.visual, "image_size", 224)
+            if isinstance(image_size, (list, tuple)):
+                height, width = int(image_size[0]), int(image_size[1])
+            else:
+                height = width = int(image_size)
+            dtype = next(self.clip_model.parameters()).dtype
+            with torch.no_grad():
+                dummy_frames = torch.zeros(
+                    1,
+                    3,
+                    height,
+                    width,
+                    device=self.device,
+                    dtype=dtype,
+                )
+                self.visual_dim = int(self.clip_model.encode_image(dummy_frames).shape[-1])
+        else:
+            self.visual_dim = int(self.visual_dim)
+
+        with torch.no_grad():
+            dummy_tokens = open_clip.tokenize(["a placeholder description"]).to(self.device)
+            text_feature = self.clip_model.encode_text(dummy_tokens)
+        self.text_dim = int(text_feature.shape[-1])
         if self.text_dim != self.visual_dim:
-            raise RuntimeError("视觉与文本嵌入维度不一致，当前实现要求二者一致。")
+            raise RuntimeError(
+                f"视觉与文本嵌入维度不一致：visual_dim={self.visual_dim}, text_dim={self.text_dim}。"
+            )
 
         self.temporal_encoder = TemporalEncoder(
             embed_dim=self.visual_dim,
@@ -162,8 +184,8 @@ class TAnomalyCLIP(nn.Module):
 
     def _encode_base_prompts(self) -> torch.Tensor:
         prompts = [
-            "a description of a normal interaction between people",
-            "a description of an abnormal or violent interaction between people",
+            "a video of a normal event",
+            "a video of an abnormal event",
         ]
         tokenized = open_clip.tokenize(prompts)
         tokenized = tokenized.to(self.device)

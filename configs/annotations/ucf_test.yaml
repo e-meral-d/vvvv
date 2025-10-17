@@ -1,0 +1,1161 @@
+videos:
+  - id: test_Abuse028_x264
+    path: Abuse/Abuse028_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Abuse030_x264
+    path: Abuse/Abuse030_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arrest001_x264
+    path: Arrest/Arrest001_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arrest007_x264
+    path: Arrest/Arrest007_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arrest024_x264
+    path: Arrest/Arrest024_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arrest030_x264
+    path: Arrest/Arrest030_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arrest039_x264
+    path: Arrest/Arrest039_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arson007_x264
+    path: Arson/Arson007_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arson009_x264
+    path: Arson/Arson009_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arson010_x264
+    path: Arson/Arson010_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arson011_x264
+    path: Arson/Arson011_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arson016_x264
+    path: Arson/Arson016_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arson018_x264
+    path: Arson/Arson018_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arson022_x264
+    path: Arson/Arson022_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arson035_x264
+    path: Arson/Arson035_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Arson041_x264
+    path: Arson/Arson041_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Assault006_x264
+    path: Assault/Assault006_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Assault010_x264
+    path: Assault/Assault010_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Assault011_x264
+    path: Assault/Assault011_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary005_x264
+    path: Burglary/Burglary005_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary017_x264
+    path: Burglary/Burglary017_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary018_x264
+    path: Burglary/Burglary018_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary021_x264
+    path: Burglary/Burglary021_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary024_x264
+    path: Burglary/Burglary024_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary032_x264
+    path: Burglary/Burglary032_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary033_x264
+    path: Burglary/Burglary033_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary035_x264
+    path: Burglary/Burglary035_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary037_x264
+    path: Burglary/Burglary037_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary061_x264
+    path: Burglary/Burglary061_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary076_x264
+    path: Burglary/Burglary076_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary079_x264
+    path: Burglary/Burglary079_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Burglary092_x264
+    path: Burglary/Burglary092_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion002_x264
+    path: Explosion/Explosion002_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion004_x264
+    path: Explosion/Explosion004_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion007_x264
+    path: Explosion/Explosion007_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion008_x264
+    path: Explosion/Explosion008_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion010_x264
+    path: Explosion/Explosion010_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion011_x264
+    path: Explosion/Explosion011_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion013_x264
+    path: Explosion/Explosion013_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion016_x264
+    path: Explosion/Explosion016_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion017_x264
+    path: Explosion/Explosion017_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion020_x264
+    path: Explosion/Explosion020_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion021_x264
+    path: Explosion/Explosion021_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion022_x264
+    path: Explosion/Explosion022_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion025_x264
+    path: Explosion/Explosion025_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion027_x264
+    path: Explosion/Explosion027_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion028_x264
+    path: Explosion/Explosion028_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion029_x264
+    path: Explosion/Explosion029_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion033_x264
+    path: Explosion/Explosion033_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion035_x264
+    path: Explosion/Explosion035_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion036_x264
+    path: Explosion/Explosion036_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion039_x264
+    path: Explosion/Explosion039_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Explosion043_x264
+    path: Explosion/Explosion043_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Fighting003_x264
+    path: Fighting/Fighting003_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Fighting018_x264
+    path: Fighting/Fighting018_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Fighting033_x264
+    path: Fighting/Fighting033_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Fighting042_x264
+    path: Fighting/Fighting042_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Fighting047_x264
+    path: Fighting/Fighting047_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents001_x264
+    path: RoadAccidents/RoadAccidents001_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents002_x264
+    path: RoadAccidents/RoadAccidents002_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents004_x264
+    path: RoadAccidents/RoadAccidents004_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents009_x264
+    path: RoadAccidents/RoadAccidents009_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents010_x264
+    path: RoadAccidents/RoadAccidents010_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents011_x264
+    path: RoadAccidents/RoadAccidents011_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents012_x264
+    path: RoadAccidents/RoadAccidents012_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents016_x264
+    path: RoadAccidents/RoadAccidents016_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents017_x264
+    path: RoadAccidents/RoadAccidents017_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents019_x264
+    path: RoadAccidents/RoadAccidents019_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents020_x264
+    path: RoadAccidents/RoadAccidents020_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents021_x264
+    path: RoadAccidents/RoadAccidents021_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents022_x264
+    path: RoadAccidents/RoadAccidents022_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents121_x264
+    path: RoadAccidents/RoadAccidents121_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents122_x264
+    path: RoadAccidents/RoadAccidents122_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents123_x264
+    path: RoadAccidents/RoadAccidents123_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents124_x264
+    path: RoadAccidents/RoadAccidents124_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents125_x264
+    path: RoadAccidents/RoadAccidents125_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents127_x264
+    path: RoadAccidents/RoadAccidents127_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents128_x264
+    path: RoadAccidents/RoadAccidents128_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents131_x264
+    path: RoadAccidents/RoadAccidents131_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents132_x264
+    path: RoadAccidents/RoadAccidents132_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_RoadAccidents133_x264
+    path: RoadAccidents/RoadAccidents133_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Robbery048_x264
+    path: Robbery/Robbery048_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Robbery050_x264
+    path: Robbery/Robbery050_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Robbery102_x264
+    path: Robbery/Robbery102_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Robbery106_x264
+    path: Robbery/Robbery106_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Robbery137_x264
+    path: Robbery/Robbery137_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting002_x264
+    path: Shooting/Shooting002_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting004_x264
+    path: Shooting/Shooting004_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting007_x264
+    path: Shooting/Shooting007_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting008_x264
+    path: Shooting/Shooting008_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting010_x264
+    path: Shooting/Shooting010_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting011_x264
+    path: Shooting/Shooting011_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting013_x264
+    path: Shooting/Shooting013_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting015_x264
+    path: Shooting/Shooting015_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting018_x264
+    path: Shooting/Shooting018_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting019_x264
+    path: Shooting/Shooting019_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting021_x264
+    path: Shooting/Shooting021_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting022_x264
+    path: Shooting/Shooting022_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting024_x264
+    path: Shooting/Shooting024_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting026_x264
+    path: Shooting/Shooting026_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting028_x264
+    path: Shooting/Shooting028_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting032_x264
+    path: Shooting/Shooting032_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting033_x264
+    path: Shooting/Shooting033_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting034_x264
+    path: Shooting/Shooting034_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting037_x264
+    path: Shooting/Shooting037_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting043_x264
+    path: Shooting/Shooting043_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting046_x264
+    path: Shooting/Shooting046_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting047_x264
+    path: Shooting/Shooting047_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shooting048_x264
+    path: Shooting/Shooting048_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting001_x264
+    path: Shoplifting/Shoplifting001_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting004_x264
+    path: Shoplifting/Shoplifting004_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting005_x264
+    path: Shoplifting/Shoplifting005_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting007_x264
+    path: Shoplifting/Shoplifting007_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting010_x264
+    path: Shoplifting/Shoplifting010_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting015_x264
+    path: Shoplifting/Shoplifting015_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting016_x264
+    path: Shoplifting/Shoplifting016_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting017_x264
+    path: Shoplifting/Shoplifting017_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting020_x264
+    path: Shoplifting/Shoplifting020_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting021_x264
+    path: Shoplifting/Shoplifting021_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting022_x264
+    path: Shoplifting/Shoplifting022_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting027_x264
+    path: Shoplifting/Shoplifting027_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting028_x264
+    path: Shoplifting/Shoplifting028_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting029_x264
+    path: Shoplifting/Shoplifting029_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting031_x264
+    path: Shoplifting/Shoplifting031_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting033_x264
+    path: Shoplifting/Shoplifting033_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting034_x264
+    path: Shoplifting/Shoplifting034_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting037_x264
+    path: Shoplifting/Shoplifting037_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting039_x264
+    path: Shoplifting/Shoplifting039_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting044_x264
+    path: Shoplifting/Shoplifting044_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Shoplifting049_x264
+    path: Shoplifting/Shoplifting049_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Stealing019_x264
+    path: Stealing/Stealing019_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Stealing036_x264
+    path: Stealing/Stealing036_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Stealing058_x264
+    path: Stealing/Stealing058_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Stealing062_x264
+    path: Stealing/Stealing062_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Stealing079_x264
+    path: Stealing/Stealing079_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Normal_Videos_003_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_003_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_006_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_006_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_010_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_010_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_014_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_014_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_015_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_015_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_018_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_018_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_019_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_019_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_024_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_024_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_025_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_025_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_027_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_027_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_033_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_033_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_034_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_034_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_041_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_041_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_042_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_042_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_048_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_048_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_050_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_050_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_051_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_051_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_056_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_056_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_059_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_059_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_063_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_063_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_067_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_067_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_070_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_070_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_100_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_100_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_129_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_129_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_150_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_150_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_168_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_168_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_175_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_175_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_182_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_182_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_189_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_189_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_196_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_196_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_203_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_203_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_210_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_210_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_217_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_217_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_224_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_224_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_246_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_246_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_247_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_247_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_248_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_248_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_251_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_251_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_289_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_289_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_310_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_310_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_312_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_312_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_317_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_317_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_345_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_345_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_352_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_352_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_360_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_360_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_365_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_365_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_401_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_401_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_417_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_417_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_439_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_439_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_452_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_452_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_453_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_453_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_478_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_478_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_576_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_576_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_597_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_597_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_603_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_603_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_606_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_606_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_621_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_621_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_634_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_634_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_641_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_641_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_656_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_656_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_686_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_686_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_696_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_696_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_702_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_702_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_704_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_704_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_710_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_710_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_717_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_717_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_722_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_722_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_725_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_725_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_745_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_745_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_758_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_758_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_778_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_778_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_780_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_780_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_781_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_781_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_782_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_782_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_783_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_783_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_798_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_798_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_801_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_801_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_828_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_828_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_831_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_831_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_866_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_866_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_867_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_867_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_868_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_868_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_869_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_869_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_870_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_870_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_871_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_871_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_872_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_872_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_873_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_873_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_874_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_874_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_875_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_875_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_876_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_876_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_877_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_877_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_878_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_878_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_879_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_879_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_880_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_880_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_881_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_881_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_882_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_882_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_883_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_883_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_884_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_884_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_885_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_885_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_886_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_886_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_887_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_887_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_888_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_888_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_889_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_889_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_890_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_890_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_891_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_891_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_892_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_892_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_893_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_893_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_894_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_894_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_895_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_895_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_896_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_896_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_897_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_897_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_898_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_898_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_899_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_899_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_900_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_900_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_901_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_901_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_902_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_902_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_903_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_903_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_904_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_904_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_905_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_905_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_906_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_906_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_907_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_907_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_908_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_908_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_909_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_909_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_910_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_910_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_911_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_911_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_912_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_912_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_913_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_913_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_914_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_914_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_915_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_915_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_923_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_923_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_924_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_924_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_925_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_925_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_926_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_926_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_927_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_927_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_928_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_928_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_929_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_929_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_930_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_930_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_931_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_931_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_932_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_932_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_933_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_933_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_934_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_934_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_935_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_935_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_936_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_936_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_937_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_937_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_938_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_938_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_939_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_939_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_940_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_940_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_941_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_941_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_943_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_943_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Normal_Videos_944_x264
+    path: Testing_Normal_Videos_Anomaly/Normal_Videos_944_x264.mp4
+    label: normal
+    segments: []
+  - id: test_Vandalism007_x264
+    path: Vandalism/Vandalism007_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Vandalism015_x264
+    path: Vandalism/Vandalism015_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Vandalism017_x264
+    path: Vandalism/Vandalism017_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Vandalism028_x264
+    path: Vandalism/Vandalism028_x264.mp4
+    label: anomaly
+    segments: []
+  - id: test_Vandalism036_x264
+    path: Vandalism/Vandalism036_x264.mp4
+    label: anomaly
+    segments: []

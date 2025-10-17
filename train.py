@@ -244,7 +244,10 @@ def main() -> None:
 
     frame_loss_fn = nn.BCEWithLogitsLoss()
     video_loss_fn = nn.BCEWithLogitsLoss()
-    scaler = torch.cuda.amp.GradScaler(enabled=args.amp and device.type == "cuda")
+    scaler = torch.amp.GradScaler(
+        "cuda",
+        enabled=args.amp and device.type == "cuda",
+    )
 
     history = []
     for epoch in range(start_epoch + 1, args.epochs + 1):

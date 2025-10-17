@@ -55,7 +55,8 @@ class SKIModule(nn.Module):
             raise ValueError(f"输入应为三维张量 (B, T, D)，实际形状为 {tuple(features.shape)}。")
 
         priors = self.prior_embeddings.to(features.dtype)
-        logits = torch.matmul(features, priors.t()) / max(self.temperature, 1e-6)
+        safe_temperature = max(float(abs(self.temperature)), 1e-6)
+        logits = torch.matmul(features, priors.t()) / safe_temperature
         weights = torch.sigmoid(self.scale * logits)
         knowledge = torch.matmul(weights, priors)
         if self.concat:
